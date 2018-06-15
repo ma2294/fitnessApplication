@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*Register email interest*/
+
+
+#field-email{
+  width: 50%;
+  margin-left: 38%;
+}
+#button-email{
+  width:15%;
+  margin-left: 43%;
+}
+
+/*Navigation*/
+.nav-item{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+
+}
+.navbar{
+  opacity: .95;
+  height:60px;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  margin:0px;
+}
+
+.first-image{
+  padding-right: .5rem;
+}
+.second-image{
+  padding-left: .5rem;
+}
+.login-user .btn{
+  font-size: 85%;
+  padding: 10px 25px
+}
+
+.welcometext-border{
+display: block;
+ width: 100%;
+ height: 2px;
+ background: black;
+ margin-bottom: 3%;
+}
+.welcomet{
+  position: absolute;
+}
+.img-caption {
+  position:absolute;
+  left:50%;
+  top:50%;
+}
+
+.row {
+  display: flex;
+}
+
+.text-on-image {
+    position:relative;
+    text-align: center;
+    color: white;
+    flex: 50;
+}
+
+.text-on-image:hover{
+  opacity: .8;
+}
+.smartwatch{
+  height:60%;
+  width:60%;
+  position: absolute;
+}
+.carousel-inner h2 {
+    height: 90%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+
+}
+.carousel-inner img {
+  width:100%;
+  height:100%; !important
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 55%
+}
+
+.carousel-caption h1 {
+  font-size: 750%;
+}
+
+.carousel-caption p {
+  font-size: 150%;
+  font-weight: 400;
+  padding-bottom: 5rem;
+}
+
+.carousel-caption .btn {
+  font-size: 250%;
+  padding: 50px 75px;
+}
+
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 1800px) {
+  .carousel-caption {
+    position: absolute;
+    top: 50%
+
+  }
+
+  .carousel-caption h1 {
+    font-size: 400%;
+  }
+
+  .carousel-caption p {
+    font-size: 105%;
+    font-weight: 400;
+    padding-bottom: .5rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 150%;
+    padding: 30px 50px;
+  }
+  }
+
+
+
+@media (max-width: 1200px) {
+
+/* Side by side images */
+  .row {
+  display: inherit;
+  }
+  .text-on-image {
+      position: relative;
+      text-align: center;
+      color: white;
+  }
+
+  .first-image{
+    padding-right: 0;
+  }
+
+  .second-image{
+    padding-left: 0;
+  }
+
+  /*Carousel */
+  .carousel-caption {
+    position: absolute;
+    top: 50%
+
+  }
+
+  .carousel-caption h1 {
+    font-size: 350%;
+  }
+
+  .carousel-caption p {
+    font-size: 85%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 150%;
+    padding: 8px 14px
+  }
+  }
+@media (max-width: 768px) {
+  .carousel-caption {
+    position: absolute;
+    top: 50%
+
+  }
+
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+
+  .carousel-caption p {
+    font-size: 85%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px
+  }
+
+  .welcometext h1{
+    font-size: 150%;
+  }
+
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    position: absolute;
+    top: 35%
+
+  }
+
+  .carousel-caption h1 {
+    font-size: 150%;
+  }
+
+  .carousel-caption p {
+    font-size: 50%;
+    font-weight: 400;
+    padding-bottom: .02rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 55%;
+    padding: 8px 14px
+  }
+
+  .img-rounded {
+    width: 100%;
+    height: 100%;
+  }
+
+  .welcometext h1{
+    font-size: 95%;
+  }
+
+}
